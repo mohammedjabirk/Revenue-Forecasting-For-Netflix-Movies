@@ -22,10 +22,13 @@ The Power BI report covers:
   
 📈 Insights
 
-High-budget movies tend to have higher revenue, but not always.
-Certain genres consistently perform better.
-IMDb rating is moderately correlated with revenue.
-Power BI visuals provide quick access to top-performing movies.
+- High-budget movies tend to have higher revenue, but not always.
+
+- Certain genres consistently perform better.
+
+- IMDb rating is moderately correlated with revenue.
+
+- Power BI visuals provide quick access to top-performing movies.
 ---
 
 ## 🤖 Machine Learning Workflow (Jupyter Notebook)
@@ -33,11 +36,13 @@ Power BI visuals provide quick access to top-performing movies.
 The machine learning notebook includes the following stages:
 
 1. Data Collection
+
 Dataset loaded from a CSV file (Netflix movie dataset).
 
 Contains features such as: Title, Genre, Release Date, Budget, Revenue, Runtime, IMDb Rating, etc.
 
 2. Data Preprocessing (Jupyter Notebook)
+
 Missing Values: Handled via imputation or row removal.
 
 Data Types: Converted columns to appropriate types (datetime, float, etc.).
@@ -49,6 +54,7 @@ Feature Selection: Chose important columns such as Budget, Runtime, Rating, etc.
 Scaling: Normalized/standardized features for certain models.
 
 3. Exploratory Data Analysis (EDA)
+
 Univariate Analysis: Distribution of genres, budgets, revenues, ratings.
 
 Bivariate Analysis: Revenue vs Budget, Rating vs Revenue.
@@ -58,6 +64,7 @@ Correlation Matrix: Identified relationships between numerical features.
 Outlier Detection: Visualized using boxplots and histograms.
 
 4. Model Building
+
 Train-Test Split: Split data into training and testing sets.
 
 Models Used:
@@ -77,6 +84,7 @@ MAE (Mean Absolute Error)
 R² Score
 
 5. Prediction
+
 Predicted Revenue of movies based on features.
 
 Compared model performance and selected the best one.
