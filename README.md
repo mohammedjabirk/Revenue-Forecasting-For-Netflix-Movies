@@ -20,9 +20,6 @@ The Power BI report covers:
 - **Correlation between budget and revenue**
 - **Top-performing movies and genres**
 
-### 📸 Screenshots (Optional)
-*Include screenshots of your Power BI visuals here if uploading to GitHub*
-
 ---
 
 ## 🤖 Machine Learning Workflow (Jupyter Notebook)
