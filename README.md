@@ -37,57 +37,57 @@ The machine learning notebook includes the following stages:
 
 1. Data Collection
 
-Dataset loaded from a CSV file (Netflix movie dataset).
+* Dataset loaded from a CSV file (Netflix movie dataset).
 
-Contains features such as: Title, Genre, Release Date, Budget, Revenue, Runtime, IMDb Rating, etc.
+* Contains features such as: Title, Genre, Release Date, Budget, Revenue, Runtime, IMDb Rating, etc.
 
 2. Data Preprocessing (Jupyter Notebook)
 
-Missing Values: Handled via imputation or row removal.
+* Missing Values: Handled via imputation or row removal.
 
-Data Types: Converted columns to appropriate types (datetime, float, etc.).
+* Data Types: Converted columns to appropriate types (datetime, float, etc.).
 
-Encoding: Applied one-hot or label encoding for categorical variables like Genre.
+* Encoding: Applied one-hot or label encoding for categorical variables like Genre.
 
-Feature Selection: Chose important columns such as Budget, Runtime, Rating, etc., for prediction.
+* Feature Selection: Chose important columns such as Budget, Runtime, Rating, etc., for prediction.
 
-Scaling: Normalized/standardized features for certain models.
+* Scaling: Normalized/standardized features for certain models.
 
 3. Exploratory Data Analysis (EDA)
 
-Univariate Analysis: Distribution of genres, budgets, revenues, ratings.
+* Univariate Analysis: Distribution of genres, budgets, revenues, ratings.
 
-Bivariate Analysis: Revenue vs Budget, Rating vs Revenue.
+* Bivariate Analysis: Revenue vs Budget, Rating vs Revenue.
 
-Correlation Matrix: Identified relationships between numerical features.
+* Correlation Matrix: Identified relationships between numerical features.
 
-Outlier Detection: Visualized using boxplots and histograms.
+* Outlier Detection: Visualized using boxplots and histograms.
 
 4. Model Building
 
-Train-Test Split: Split data into training and testing sets.
+* Train-Test Split: Split data into training and testing sets.
 
-Models Used:
+* Models Used:
 
-Linear Regression
+* Linear Regression
 
-Random Forest Regressor
+* Random Forest Regressor
+  
+  (Optional: XGBoost, Decision Tree)
 
-(Optional: XGBoost, Decision Tree)
+5. Model Evaluation:
 
-Model Evaluation:
+* RMSE (Root Mean Square Error)
 
-RMSE (Root Mean Square Error)
+* MAE (Mean Absolute Error)
 
-MAE (Mean Absolute Error)
+* R² Score
 
-R² Score
+6. Prediction
 
-5. Prediction
+* Predicted Revenue of movies based on features.
 
-Predicted Revenue of movies based on features.
-
-Compared model performance and selected the best one.
+* Compared model performance and selected the best one.
 
 
 ---
