@@ -1,5 +1,5 @@
 
-# 🎬 Netflix Movies Analysis and Prediction
+# 🎬 Netflix Movies Analysis and Prediction 
 
 This project involves an in-depth analysis and prediction of Netflix movies using Machine Learning and Power BI. The goal is to explore the dataset, extract insights, and predict movie revenue using machine learning models.
 
